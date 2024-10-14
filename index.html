@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--MY CSS-->
+    <link rel="stylesheet" href="css/estilo.css">
+    <!--CSS BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--JS BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <title>Tarea Bootstrap #1</title>
+</head>
+
+<body>
+    <!--CONTENEDOR PADREEEE-->
+    <div class="contenedor">
+        <div class="header">
+
+        </div>
+        <!--HAEDER Y MENUUU-->
+        <div class="menu1">
+            <div class="position-relative">
+                <div class="position-absolute top-0 start-0" style="font-weight: bold;">
+                    <nav class="navbar navbar-expand-lg navbar-dark">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Modelos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Ofertas</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Mas Informacion
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <li><a class="dropdown-item" href="#">Contacto</a></li>
+                                            <li><a class="dropdown-item" href="#">Sobre nosotros</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+
+                </div>
+                <div class="position-absolute top-0 start-50 translate-middle-x">
+                    <nav class="navbar navbar-light custom-navbar">
+                        <div class="container">
+                            <a class="navbar-brand" href="#">
+                                <img src="img/Mercedes-Logo.png" alt="" width="35" height="35">
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+
+                <div class="position-absolute top-0 end-0">
+
+                </div>
+            </div>
+        </div>
+
+
+        <!--CONTENIDO PARA IMGS-->
+        <div class="contenido">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/classL3.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/classL2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/classL1.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="contenidoA">
+            <div class="images">
+                <img src="img/ubicacionVector.png" alt="ubicacion" width="100px" height="70px">
+            </div>
+            <a href="#" class="enlaces1">
+                <h3>Nuestras<br>Ubicaciones</h3>
+            </a>
+        </div>
+        <div class="contenidoB">
+            <div class="images">
+                <img src="img/vectorDinero.png" alt="ubicacion" width="120px" height="100px">
+            </div>
+            <a href="#" class="enlaces1">
+                <h3>Ofertas e<br>incentivos</h3>
+            </a>
+        </div>
+        <div class="contenidoC">
+            <div class="images">
+                <img src="img/contratoVector.png" alt="ubicacion" width="100px" height="70px">
+            </div>
+            <a href="#" class="enlaces1">
+                <h3>Obten un<br>descuento</h3>
+            </a>
+        </div>
+        <div class="contenidoD">
+            <div class="images">
+                <img src="img/visitaVector.png" alt="ubicacion" width="100px" height="70px">
+            </div>
+            <a href="#" class="enlaces1">
+                <h3>Autos<br>certificados</h3>
+            </a>
+        </div>
+
+        <div class="ads1">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/anuncio1.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/anuncio2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/anuncio3.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div>
+        </div>
+        <!--PARA EL PIE DE PAGINAA-->
+        <div class="footer">
+            <p>Hecho por: Andres Gabriel Maydana Garcia</p>
+        </div>
+    </div>
+</body>
+
+</html>
